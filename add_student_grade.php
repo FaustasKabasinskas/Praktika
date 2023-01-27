@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <?php
-require_once('myql_connection.php');
+require_once('mysql_connection.php');
 
 session_start();
 if(!isset($_SESSION["id"]) || $_SESSION["id"] == '') 
